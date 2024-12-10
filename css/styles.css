@@ -500,6 +500,9 @@ img {
   font-weight: 400;
   letter-spacing: 0.04em;
   padding-left: 16px;
+  background-color: transparent;
+  line-height: 2;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .input-footer:placeholder-shown {
