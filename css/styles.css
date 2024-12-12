@@ -709,14 +709,13 @@ img {
 .form-icon {
   position: absolute;
   left: 16px;
-  top: 8px;
   fill: rgba(46, 47, 66, 1);
   top: 50%;
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-icon:focus {
+.input-control:focus + .form-icon {
   fill: rgba(77, 90, 229, 1);
 }
 
@@ -725,7 +724,6 @@ img {
 }
 
 .form-checkbox-label {
-  display: flex;
   color: rgba(142, 143, 153, 1);
   font-family: 'Roboto', sans-serif;
   font-size: 12px;
