@@ -236,10 +236,10 @@ img {
 @media (min-resolution: 192dpi) {
   .hero-section {
     background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-     url('../images/office-main@2x.jpg');
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url('../images/office-main@2x.jpg');
   }
 }
 
@@ -1093,7 +1093,7 @@ img {
 @media screen and (min-width: 768px) {
   .menu-button-open {
     display: none;
-  }+
+  }
 }
 
 .menu-button-open {
